@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Shopping Wallet</string>
+    <string name="app_name">OnboardingTutorial</string>
+    <string name="easyShoppingBoarding">Easy Shopping</string>
+    <string name="fristPragraphBoarding">We enable you navigate and searching our products and items,
+making shopping easier and fast. Also you can compare prices
+and get the best price in market.</string>
+    <string name="getItemsBoarding">Get your favorite items</string>
+    <string name="secondPragraphBoarding">You can add your favorite items/products from different caregories
+or stores to your favorite for easy access.</string>
+    <string name="DiscountOnBoarding">Discounts for every purchase</string>
+    <string name="thirdPragraphBoarding">For every puraches you made from our stores you get a discount in
+your wallet that will be applied in next purchase, So more purachase
+you mad more disounts you get.</string>
+
 </resources>

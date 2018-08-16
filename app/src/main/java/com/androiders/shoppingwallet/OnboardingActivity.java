@@ -9,8 +9,8 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 
-import com.gc.materialdesign.views.ButtonFlat;
-import com.ogaclejapan.smarttablayout.SmartTabLayout;
+import com.androiders.shoppingwallet.MainActivity;
+import com.androiders.shoppingwallet.R;
 
 public class OnboardingActivity extends FragmentActivity{
 
@@ -36,9 +36,9 @@ public class OnboardingActivity extends FragmentActivity{
             @Override
             public Fragment getItem(int position) {
                 switch (position) {
-                    case 0 : return new OnboardingFragment1();
-                    case 1 : return new OnboardingFragment2();
-                    case 2 : return new OnboardingFragment3();
+                    case 0 : return new com.selema.onboardingtwo.OnboardingFragment1();
+                    case 1 : return new com.selema.onboardingtwo.OnboardingFragment2();
+                    case 2 : return new com.selema.onboardingtwo.OnboardingFragment3();
                     default: return null;
                 }
             }
